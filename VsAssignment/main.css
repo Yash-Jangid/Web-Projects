@@ -1,0 +1,653 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+.font-1 {
+    font-size: 115px;
+    letter-spacing: 4px;
+    line-height: 84px;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Berkshire Swash", cursive;
+    text-align: center;
+    filter: drop-shadow(10px 17.321px 10.5px rgba(0, 0, 0, 0.05))
+}
+
+.font-2 {
+    font-size: 50px;
+    margin-left: 80px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 100;
+    font-family: "Berkshire Swash", cursive;
+    text-align: center;
+    filter: drop-shadow(10px 17.321px 10.5px rgba(0, 0, 0, 0.05));
+}
+
+.font-nl {
+    font-size: 30px;
+    /* margin-left: 80px; */
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-family: "Berkshire Swash", cursive;
+    text-align: center;
+}
+
+.font-discription-3 {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 29px;
+    color: #ffffff;
+    font-weight: 200;
+    font-family: "Poppins";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.col-nav {
+    background-color: #537543;
+    filter: drop-shadow(-41.698px 14.972px 36.5px rgba(83, 83, 83, 0.13));
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.searchlogo {
+    color: white;
+    margin-top: 14px;
+    font-size: 35px;
+}
+
+.logo {
+    margin-top: -10px;
+}
+
+.background {
+    background-color: #537942;
+}
+
+/* .background1 {
+    width: 1960px;
+    height: 433px;
+    filter: drop-shadow(-11.698px 14.972px 36.5px rgba(83, 83, 83, 0.13));
+    background-color: #537543;
+} */
+
+.background2 {
+    background-image: linear-gradient(229deg, rgba(124, 178, 88, 0.9999999999999999) 0%, rgba(76, 84, 73, 0) 100%);
+}
+
+.nav {
+    margin: 0 6%;
+}
+
+.col-md {
+    display: flex;
+}
+
+.first-section-1 {
+    flex: 1;
+    text-align: center;
+    margin: auto;
+}
+
+.first-section-2 {
+    margin-right: 20px;
+    width: 56%;
+}
+
+.col-1-content {
+    position: relative;
+    left: 7%;
+}
+
+.banner-page {
+    text-align: left;
+    letter-spacing: 2px;
+    padding: 40px 0;
+}
+
+.col-1-Tittle .col-1-button {
+    padding: 10px;
+    margin-right: 45%;
+    width: 12em;
+    height: 3em;
+    background-color: #f1cb37;
+    border-radius: 35px;
+    font-size: 20px;
+    color: #29582a;
+    border: none;
+}
+
+.col-md .first-section-2 img {
+    width: 100%;
+    height: 95%;
+}
+
+/* .Second-page .section {
+    border: 2px solid red;
+} */
+
+/* Page Second*/
+
+.col-2-content .font-head {
+    font-size: 20px;
+    color: #3b753d;
+}
+
+.Second-page {
+    display: flex;
+}
+
+.Second-page .section {
+    /* background-image: url(../image/Group\ 2.png); */
+    background-position: right;
+    width: 20px;
+    background-size: cover;
+}
+
+.Second-page img {
+    margin-left: 9em;
+}
+
+h2.font-nl.font-head {
+    font-size: 51px;
+    text-align: left;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+/* .col-md-txt {
+    position: relative;
+    top: 130px;
+    left: 55%;
+    width: 35%;
+} */
+
+.Second-page .col-md-txt {
+    position: relative;
+    top: 130px;
+    left: 55%;
+    width: 35%;
+}
+
+p.font-nl.font-sub {
+    font-family: 'Poppins'!important;
+    text-align: left;
+    font-style: italic;
+    color: #3b753d;
+    font-size: 25px;
+}
+
+.col-2-Tittle .font-discription-3.banner-page {
+    color: #3b753d;
+    font-weight: 400;
+}
+
+button.col-2-button {
+    padding: 20px;
+    border-radius: 41px;
+    height: 70px;
+    width: 39%;
+    font-size: 24px;
+    border: none;
+    float: left;
+}
+
+/* Page Second*/
+
+/* Page third*/
+
+.background-3 {
+    background-color: #3b753d
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.background-3 .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .box {
+    text-align: center;
+    padding: 0 20%;
+    padding: 0px 30px;
+    width: 20%;
+}
+
+.box h1 {
+    font-size: 28px;
+    letter-spacing: 3px;
+    line-height: 57px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.background-3 .section .box p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+    justify-content: center;
+}
+
+.cardes .card img {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    margin-right: 20px;
+}
+
+.cardes {
+    margin: 0px 15%;
+    display: flex;
+    text-align: center;
+}
+
+.flex_bg {
+    background-image: url(../image/rs.png);
+    height: 245px;
+}
+
+.flex_bg .title1 {
+    font-family: "Berkshire Swash", cursive;
+    color: #fff;
+    text-align: center;
+    font-size: 75px;
+    padding: 28px;
+}
+
+.flex_bg .content1,
+.content1 .flex h1 {
+    color: #fff;
+    font-family: "Poppins";
+    text-align: center;
+    font-size: 30px;
+    margin-top: -34px;
+}
+
+.flex-description-box {
+    background-color: #3b753d;
+    padding-bottom: 20px;
+    border-radius: 13px 13px 13px;
+}
+
+h1.content1.flex {
+    color: #fff;
+    font-family: "Poppins";
+    text-align: center;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.flex-description-box p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+    justify-content: center;
+}
+
+.col-flex-box {
+    /* padding: 25px 0; */
+    padding: 8% 15%;
+}
+
+.flex-text {
+    font-size: 14px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+    justify-content: center;
+}
+
+.flex_bg_bottom {
+    background-image: url(../image/rs.png);
+    height: 150px;
+}
+
+section-2 {
+    padding: 40px 0 0 0;
+}
+
+/* Page third*/
+
+/* Page five*/
+
+.five-page {
+    background-color: #f39a16;
+}
+
+.five-page .flex_bg {
+    background-image: url(../image/rs.png);
+    height: 245px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left top;
+}
+
+.inner-flex {
+    display: flex;
+    margin: 0 20%;
+}
+
+.col-second {
+    width: 60%;
+    margin: 0 40px 0 0;
+}
+
+.col-second img {
+    width: 35em;
+}
+
+.col-first {
+    margin: auto;
+}
+
+h1.content1.five-heading {
+    color: #fff;
+    font-family: "Poppins";
+    text-align: center;
+    font-size: 30px;
+    /* margin-top: -34px; */
+    font-weight: 500;
+    text-align: left;
+}
+
+.five-para {
+    text-align: left;
+}
+
+.five-page-button {
+    width: 48%!important;
+    font-size: 20px!important;
+}
+
+.five-heading {
+    padding-bottom: 10px;
+}
+
+.five-para {
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+/* .five-page .section .flex-bg {
+    background-image: url(../image/rs.png);
+    background-position: left;
+} */
+
+/* Page five*/
+
+/* Page six*/
+
+
+.table-item {
+    background-image: url(Images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.Dishes {
+    /* width: 90%;  */
+    margin: 0 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.Dishes p {
+    font-family: "Poppins";
+    text-align: left;
+    color: white;
+    line-height: -1px;
+}
+
+.Dishes .text1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: -40px;
+}
+
+.Dishes .text2 {
+    font-size: 58px;
+    margin: -8px 0;
+
+}
+
+.Dishes .text3 {
+    font-size: 14px;
+    margin: -24px 0;
+}
+
+.dish img {
+    padding-right: 30px;
+    width: 75%;
+    float: right;
+    /* margin: auto 0!important; */
+}
+
+/* .Dishes .text2 {
+    font-size: 30px;
+} */
+
+.text {
+    padding: 0px 29px;
+}
+
+.page-six .Dishes {
+    background-image: url(../);
+}
+/* Page six*/
+
+/* Page Seven*/
+
+.seven-page {
+    padding: 0 20%;
+    background-color: #29582a;
+    text-align: center;
+}
+
+.Background-image .testi-page {
+    font-size: 107px!important;
+    padding: 5% 0 0%;
+}
+
+.Background-image p,
+.seven-page h2 {
+    font-size: 18px;
+    line-height: 29px;
+    color: #ffffff;
+    font-weight: 200;
+    font-family: "Poppins";
+    letter-spacing: 2px;
+}
+
+.Background-image .author {
+    padding-top: 5%;
+    font-weight: 400;
+}
+
+.seven-page,
+.page-six {
+    background-image: url(../image/line-Pattren2.png);
+    background-repeat: repeat-x;
+}
+
+.author {
+    padding-bottom: 20px;
+}
+
+/* Page Seven*/
+
+/* Page eight*/
+
+.section4 {
+    background-color: #fff;
+    padding: 60px;
+    text-align: center;
+}
+
+.subscribe-header h1 {
+    letter-spacing: 6px;
+    padding: 0 30%;
+    color: #537942;
+    font-size: 65px;
+    font-family: "Berkshire Swash", cursive;
+    line-height: 70px;
+}
+
+.section4 .col-sub p {
+    color: #537942;
+    padding: 32px 120px;
+    font-size: 18px;
+    line-height: 29px;
+    font-family: "Poppins";
+}
+
+.input .box4 {
+    padding: 0 25%;
+}
+
+input.Email-box {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    color: white;
+    padding: 18px;
+    font-size: 20px;
+}
+
+.Email-box,
+button {
+    border: 2px solid #537942;
+    border-radius: 30px;
+}
+
+.input .box4 button {
+    background-color: #537942;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.box4 {
+    text-align: center;
+}
+
+.btn {
+    width: 53%;
+    margin: 0 auto;
+    padding: 16px 0 0 32px;
+}
+
+button h1 {
+    margin: 0 auto;
+    font-size: large;
+}
+.col-sub .btn button {
+    background-color: #537942;
+    width: 100%;
+    padding: 2%;
+    margin: 0 0 0 3px;
+    color: #fff;
+    font-family: "Poppins";
+    letter-spacing: 2px;
+}
+
+/* Page nine */
+
+
+.background5 {
+    background-color: #537942;
+    padding: 100px 0;
+}
+
+.section5 {
+    margin: 0 10%;
+    display: flex;
+}
+.text1 {
+    color: white;
+    font-family: "Poppins";
+    text-align: left;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.text{
+    padding:0 0 10px 0 ;
+    color: white;
+    font-family: "Berkshire Swash", cursive;
+    text-align: left;
+    font-size: 30px;
+}
+.logo1 {
+    display: flex;
+}
+.icon{
+    margin-left: 8px;
+}
+
+.box {
+    width: 25%;
+    color: white;
+    font-family: "Berkshire Swash", cursive;
+    font-size: 32px;
+    text-align: left;
+    padding: 0 20px;
+}
+.section5 .box .description {
+    font-size: 16px;
+    padding-bottom: 30px;
+}   
+.background5 .section5 .box-mn {
+    width: 40%;
+}
+
+/* Page nine */
+
+/* 
+padding: 10px;
+    margin-right: 45%;
+    width: 12em;
+    height: 3em;
+    background-color: #f1cb37;
+    border-radius: 35px;
+    font-size: 20px;
+    color: #29582a;
+    border: none; */
+
+/* Page eight*/

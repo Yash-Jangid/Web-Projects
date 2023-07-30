@@ -1,0 +1,59 @@
+body {
+    padding: 20% 30%;
+    margin: 0;
+    
+
+}
+.col-1{
+    border: 2px solid gold;
+    padding: 20px;
+}
+
+.heading {
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.boxs {
+    display: flex;
+    flex-direction: left;
+
+}
+
+.button {
+    height: 8rem;
+    width: 8rem;
+    display: flex;
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#red {
+    background-color: red;
+    color: white;
+}
+
+#blue {
+    background-color: blue;
+    color: white;
+}
+
+#purple {
+    background-color: purple;
+    color: white;
+}
+
+#black {
+    background-color: #292929;
+    color: white;
+}
+
+#green {
+    background-color: green;
+    color: white;
+}
