@@ -1,0 +1,42 @@
+.navbar {
+    background: #FFEADB;
+    border-radius: 16px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.reservation-btn {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    background: #FA9601;
+    border-radius: 12px;
+    padding: 8px;
+    color: #fff;
+    border: none;
+}
+
+
+.P-heading {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 43px;
+    color: #FAA501;
+}
+
+.P2-heading {
+    font-family: 'Kyiv*Type Serif';
+    font-style: normal;
+    font-weight: 840;
+    font-size: 70px;
+    line-height: 89px;
+    color: #FFEADB;
+    margin: 0;
+}

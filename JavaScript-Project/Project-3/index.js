@@ -1,3 +1,4 @@
+
 function adjustJumbotronHeight() {
     $(".jumbotron").css({ height: $(window).height() + "px" });
   }
@@ -37,4 +38,3 @@ $(function () {
       }
     });
   });
-  
