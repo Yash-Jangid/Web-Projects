@@ -1,158 +1,171 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
-
-body {
-    font-family: 'Inter', sans-serif;
-}
-
-.Slider-container {
-    font-family: 'Inter', sans-serif;
-    letter-spacing: 2px;
-}
-
-.jumbotron {
-    color: white;
-    background-image: url(../Project-3/image/adfa.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 
-.btn {
-    width: 10rem;
-    color: #fff;
-    background-color: #ff5f09;
-    border-radius: 0;
-}
-
-.box {
-    display: inline-flex;
-}
-
-.para-text-log {
-    font-size: .8rem;
-}
-
-.third-page {
-
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 3rem 0;
-}
-
-a.btn.cart-btw {
-    background-color: #111;
-}
-
-.col.cart-container {
-    display: inline-flex;
+*{
+    padding: 0;
+    margin: 0;
 }
 
 
 
+    body {
+        font-family: 'Inter', sans-serif;
+    }
+    .custom-icon-color {
+        color: #111; 
+      }
 
-
-.flip-container {
-    perspective: 1000px;
-    -moz-transform: perspective(1000px);
-    -moz-transform-style: preserve-3d;
-    -webkit-perspective: 1000;
-    -moz-perspective: 1000;
-    -o-perspective: 1000;
-}
-
-.flip-container:hover .flipper,
-.flip-container.hover .flipper {
-    transform: rotateY(180deg);
-}
-
-.flip-container,
-.front,
-.back {
-    width: 100%;
-    height: 400px;
-}
-
-
-.flipper {
-    transition: 0.6s;
-    transform-style: preserve-3d;
-    position: relative;
-}
-
-
-.front,
-.back {
-    backface-visibility: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 10px;
-}
-
-
-.front {
-    z-index: 2;
-   
-    transform: rotateY(0deg);
-    -webkit-transform: rotateY(0deg);
-
-}
-
-
-.back {
-    transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
-}
-
-.thumbnail {
-    background: none;
-    border: none;
-}
-
-.mb {
-    margin-bottom: 20px;
-}
-.footer{
-    background-color: #111;
-}
-.logo-footer {
-    filter: brightness(0) invert(1);
-  }
-
-
-
-
-@media (min-width: 769px) {
-    .col-md-6.first-bx-text {
-        max-width: 50%;
+    .Slider-container {
+        font-family: 'Inter', sans-serif;
+        letter-spacing: 2px;
     }
 
-    .heading-text {
-        font-size: 5rem;
-        letter-spacing: 5px;
-        padding-bottom: 2rem;
-        margin-right: 30px;
+    .jumbotron {
+        color: white;
+        background-image: url(./image/adfa.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
-    .subheading-text {
-        font-size: 4rem;
-        letter-spacing: 5px;
-        padding-bottom: 2rem;
-    }
-}
 
-@media (max-width: 1180px) {
-
-    .heading-text {
-        font-size: 3rem;
-        letter-spacing: 5px;
-        padding-bottom: 2rem;
+    .btn {
+        width: 10rem;
+        color: #fff;
+        background-color: #ff5f09;
+        border-radius: 0;
     }
 
-    .subheading-text {
-        font-size: 2rem;
-        letter-spacing: 5px;
-        padding-bottom: 2rem;
+    .box {
+        display: inline-flex;
     }
-}
+
+    .para-text-log {
+        font-size: .8rem;
+    }
+
+    .third-page {
+
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 3rem 0;
+    }
+
+    a.btn.cart-btw {
+        background-color: #111;
+    }
+
+    .col.cart-container {
+        display: inline-flex;
+    }
+
+
+
+
+
+    .flip-container {
+        perspective: 1000px;
+        -moz-transform: perspective(1000px);
+        -moz-transform-style: preserve-3d;
+        -webkit-perspective: 1000;
+        -moz-perspective: 1000;
+        -o-perspective: 1000;
+    }
+
+    .flip-container:hover .flipper,
+    .flip-container.hover .flipper {
+        transform: rotateY(180deg);
+    }
+
+    .flip-container,
+    .front,
+    .back {
+        width: 100%;
+        height: 400px;
+    }
+
+
+    .flipper {
+        transition: 0.6s;
+        transform-style: preserve-3d;
+        position: relative;
+    }
+
+
+    .front,
+    .back {
+        backface-visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px;
+    }
+
+
+    .front {
+        z-index: 2;
+
+        transform: rotateY(0deg);
+        -webkit-transform: rotateY(0deg);
+
+    }
+
+
+    .back {
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+    }
+
+    .thumbnail {
+        background: none;
+        border: none;
+    }
+
+    .mb {
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        background-color: #111;
+    }
+
+    .logo-footer {
+        filter: brightness(0) invert(1);
+    }
+
+
+
+
+    @media (min-width: 769px) {
+        .col-md-6.first-bx-text {
+            max-width: 50%;
+        }
+
+        .heading-text {
+            font-size: 5rem;
+            letter-spacing: 5px;
+            padding-bottom: 2rem;
+            margin-right: 30px;
+        }
+
+        .subheading-text {
+            font-size: 4rem;
+            letter-spacing: 5px;
+            padding-bottom: 2rem;
+        }
+    }
+
+    @media (max-width: 1180px) {
+
+        .heading-text {
+            font-size: 3rem;
+            letter-spacing: 5px;
+            padding-bottom: 2rem;
+        }
+
+        .subheading-text {
+            font-size: 2rem;
+            letter-spacing: 5px;
+            padding-bottom: 2rem;
+        }
+    }
