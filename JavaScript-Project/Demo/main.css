@@ -1,0 +1,19 @@
+.navbar1 {
+    background-image: url(./Image/joqa_f189_200504.jpg);
+    display: flex;
+    background-size: cover;
+    padding: 4rem;
+}
+.bannerr1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 50%;
+    height: 23rem;
+}
+
+.bannerr1 h1,
+.bannerr1 p {
+    text-align: left;
+}

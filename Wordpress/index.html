@@ -1,0 +1,77 @@
+<?php
+global $wpdb;
+
+$err = '';
+$success = '';
+
+if (isset($_POST['task']) && $_POST['task'] == 'login') {
+   
+    $username = $wpdb->escape($_POST['username']); 
+    $password = $wpdb->escape($_POST['password']); 
+    $remember = $wpdb->escape($_POST['remember']);
+
+    if ($username == '' || $password == '') {
+        $err = "Please don't leave the required fields.";
+    } else {
+        $user_data = array();
+        $user_data['user_login'] = $username;
+        $user_data['user_password'] = $password;
+        $user_data['remember'] = $remember;
+        $user = wp_signon($user_data, false);
+
+        if (is_wp_error($user)) {
+            $err = "Invalid username or password.";
+        } else {
+            wp_set_current_user($user->ID, $username);
+            do_action('set_current_user');
+
+            echo "<script type=\"text/javascript\">window.location='".get_bloginfo('url')."'</script>"; 
+            exit();
+        }
+    }
+}
+
+get_header();
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/custom-style.css" />
+</head>
+
+<body>
+
+    <form method="post">
+        <input type="hidden" name="task" value="login">
+        <?php if ($err) { ?>
+        <p style="color: red;">
+            <?php echo $err; ?>
+        </p>
+        <?php } ?>
+        <p>
+            <label for="username">Username/Email</label>
+            <input type="text" id="username" name="username" placeholder="Enter Username/Email">
+        </p>
+        <p>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter Password">
+        </p>
+        <p>
+            <label>
+                <input type="checkbox" name="remember" value="1"> Remember me
+            </label>
+        </p>
+        <p>
+            <button type="submit" name="btn_submit">Log in</button>
+        </p>
+    </form>
+</body>
+
+</html>
+<?php
+get_footer();
+?>
